@@ -3,8 +3,8 @@
 angular.module("frontApp")
   .factory "Api", ($http) ->
 
-    # host = "http://192.168.101.131:3000"
-    host = "http://127.0.0.1:3000"
+    host = "http://192.168.101.131:3000"
+    # host = "http://127.0.0.1:3000"
 
     getPeople: ->
       $http.get(host + "/people")
