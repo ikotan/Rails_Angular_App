@@ -16,3 +16,11 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# front 
+/front/node_modules
+/front/dist
+/front/.tmp
+/front/.sass-cache
+/front/app/bower_components
+
